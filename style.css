@@ -1,0 +1,212 @@
+body, html{
+    margin: 0;
+    color: rgb(75, 75, 75);
+    background-image: url('https://www.feda.net/wp-content/uploads/2019/10/ciclismo.jpg');
+    background-size: cover;
+    height: 100%;
+    font-family: Helvetica, sans-serif;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Navbar Css */
+.navbar{
+    background-color: rgb(165, 42, 42, 1);
+    padding: 0 100px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+}
+/* Navbar Logo Css */
+.navbar > a > img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transform: scale(1);
+}
+.navbar > a:hover > img {
+    transform: scale(1.02);
+}
+/* Navbar Opciones Css */
+.navbar > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.navbar > ul > li {
+    cursor: pointer;
+}
+.navbar > ul > li > a {
+    text-decoration: none;
+    color: white;
+    padding: 23px 40px;
+    background-color: rgb(165, 42, 42, 1);
+    transition: 300ms;
+}
+.navbar > ul > li > a:hover {
+    background-color: rgb(133, 14, 14);
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+/* Index Css */
+.container{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(240, 236, 255, 0.8);
+}
+/* Contacto Css */
+.contacto{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px ;
+}
+.input_field{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.button_field{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.input_form{
+    height: 22px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(165, 42, 42, 1);
+    color: rgba(165, 42, 42, 1);
+    font-weight: 600;
+    transition: all 300ms;
+}
+.input_form:focus {
+    background-color: rgba(165, 42, 42, .2);
+    border-bottom: 1px solid transparent;
+    color: rgb(75, 75, 75);
+}
+.input_text_form{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(165, 42, 42, 1);
+    color: rgba(165, 42, 42, 1);
+    font-weight: 600;
+    transition: all 300ms;
+}
+.input_text_form:focus {
+    background-color: rgba(165, 42, 42, .2);
+    border-bottom: 1px solid transparent;
+    color: rgb(75, 75, 75);
+}
+.button_field > button{
+    color: white;
+    border: none;
+    outline: none;
+    padding: 5px 30px;
+    background-color: rgba(165, 42, 42, 1);
+    border-radius: 5px;
+}
+.button_field > button:hover{
+    background-color: rgb(133, 14, 14);
+}
+.button_field > button:active{
+    background-color: rgb(88, 0, 0);
+}
+/* Pié de página Css */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(165, 42, 42, 1);
+    color: white;
+    padding: 40px 60px;
+}
+.section_text{
+    width: 30%;
+    text-align: center;
+}
+.section{
+    width: 10%;
+    text-align: center;
+}
+.section > h3{
+    font-weight: 300;
+}
+.section > a > i{
+    font-size: 20px;
+    color:white;
+    opacity: 1;
+    transition: color 300ms;
+}
+.section > a > i:hover{
+    color:rgba(255,255,255,0.4);
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Galería Css */
+.container_gallery{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(240, 236, 255, 0.8);
+}
+.card{
+    align-self: center;
+    background-color: white;
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+.line{
+    height: 1px;
+    width: auto;
+    margin: 10px 20px;
+    background-color: rgb(233, 233, 233);
+}
+.card_img{
+    width: 300px;
+    height: auto;
+}
+.card_content{
+    text-align: center;
+}
+.card_title{
+    margin: 0;
+    padding: 0;
+}
+.card_paragraph{
+    font-size: 13px;
+}
+.img_bike{
+    width: 300px;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+    transform: scale(1);
+    transition: all 400ms;
+}
+.img_bike:hover{
+    transform: scale(1.02);
+    border-radius: 3px;
+}
+.btn{
+    margin: 10px 0 20px 0;
+    background-color: rgba(165, 42, 42, 1);
+    color:white;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 250ms;
+}
+.btn:hover{
+    background-color: rgb(133, 14, 14);
+}
+.btn:active{
+    background-color: rgb(88, 0, 0);
+}
+h3, h5{
+    padding: 0;
+    margin: 15px 0;
+}
